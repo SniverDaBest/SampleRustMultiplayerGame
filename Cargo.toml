@@ -1,0 +1,12 @@
+[package]
+name = "UntitledPixelGame"
+version = "0.0.1"
+edition = "2018"
+
+[[bin]]
+name = "upg"
+path = "src/main.rs"
+
+[dependencies]
+piston_window = "0.120.0"
+image = "0.23.14"
