@@ -1,7 +1,5 @@
-/* Copyright (C) SniverDaBest - All Rights Reserved
- * Unauthorized copying or distribution of this file, via any medium is strictly prohibited
- * Proprietary and confidential
- * Written by Owen Marquardt <owen.gary629@gmail.com>, Month Year
+/* Made by SniverDaBest
+ * Last updated on 2/21/24
  */
 
 extern crate piston_window;
@@ -19,12 +17,8 @@ pub struct Player {
     isMoving: bool,
     hp: i32,
     maxHP: i32,
-    stamina: i32,
-    maxStamina: i32,
     speed: f64,
     maxSpeed: f64,
-    mana: i32,
-    maxMana: i32,
 }
 
 // Player functions
