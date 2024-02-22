@@ -1,3 +1,7 @@
 target/
 .vscode/
 Cargo.lock
+server.exe
+server.pdb
+client.exe
+client.pdb
