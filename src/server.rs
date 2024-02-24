@@ -1,3 +1,7 @@
+/* Made by SniverDaBest
+ * Last modified 2/23/24
+ * I know this is insecure, but if you send an issue on GitHub, I *maybe* will fix it.
+ */
 use std::net::{TcpListener, TcpStream};
 use std::thread;
 use std::io::{Read, Write, Error};
@@ -9,6 +13,7 @@ fn handle_client(mut stream: TcpStream) -> Result<(), Error> {
     loop {
         let bytes_read = stream.read(&mut buf)?;
         if bytes_read ==  0 {
+            println!("Client {} has discoonected.", stream.peer_addr()?);
             return Ok(());
         }
         // Process the data read from the stream.
