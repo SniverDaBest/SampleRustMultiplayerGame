@@ -11,6 +11,6 @@ I have many reasons why I wanted to make this. I will list a few.
 ## How do I build this?
 To build this, don't use `cargo run` or `cargo build` unless you want the actual game, which I haven't worked on yet. To build this, run `rustc src/client.rs` and `rustc src/server.rs`.
 ## How do I run this?
-To run this, run `.\server` on Windows in a terminal, and in another terminal window, run `.\client [ip] [port]`. Obviously replace ip and port with their respective values. Port should be 1169 *nice*, and if the server is local, do `127.0.0.1`.
+To run this, run `.\server` on Windows in a terminal, and in another terminal window, run `.\client [ip] [port] [nickname]`. Obviously replace ip and port, as well as nickname with their respective values. Port should be 1169 *nice*, and if the server is local, do `127.0.0.1`.
 ## I have two clients open. Why can't I see what one client sends on the other client?
 It's easy. I just haven't added it yet.
